@@ -1,7 +1,6 @@
 {
   "name": "rest-rant",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacc01/project-REST-rant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isaacc01/project-REST-rant/issues"
+  },
+  "homepage": "https://github.com/isaacc01/project-REST-rant#readme",
+  "description": ""
 }
