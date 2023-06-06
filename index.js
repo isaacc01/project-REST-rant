@@ -1,9 +1,10 @@
+//MODULES
 require('dotenv').config()
-
 const express = require('express')
 const app = express()
 
-app.use('/places', require('./controllers/places'))
+// Controllers & Routes
+app.use('./places', require('./controllers/places'))
 
 app.get('/', (req, res) => {
     res.send('Helo World!')
@@ -14,5 +15,5 @@ app.get('*', (req,res) => {
 })
 
 
+// Listen for Connections
 app.listen(process.env.PORT)
-

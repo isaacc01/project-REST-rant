@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isaacc01/project-REST-rant.git"
@@ -20,5 +21,5 @@
     "url": "https://github.com/isaacc01/project-REST-rant/issues"
   },
   "homepage": "https://github.com/isaacc01/project-REST-rant#readme",
-  "description": ""
+  "description": "REST-Rant is an app where users can review restaurants."
 }
