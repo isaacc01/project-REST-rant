@@ -1,4 +1,54 @@
 h1 {
-    text-align: center;
-    color: cornflowerblue;
-  }
+  text-align: center;
+  color: cornflowerblue;
+}
+
+img {
+  height: 46vh;
+  width: 46vw;
+}
+
+body{
+  text-align: center;
+  background-color: lightblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(128, 111, 145);
+}
+
+nav {
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5em;
+}
+
+nav a:hover {
+  color: pink;
+  text-decoration: none;
+}
